@@ -1,0 +1,29 @@
+# internship
+
+Required modules:
+
+pip install chatterbot
+pip install chatterbot-corpus
+pip install gTTS
+pip install SpeechRecognition
+pip install pyaudio
+--------------------------------------------
+AIM:
+the aim of this project was to make a program that can be a two way communication between an user and a computer
+the computer should be able to hold basic conversation
+----------------------------------------------
+PRINCIPLE:
+in breif the way this program works is by thaking the 'speech' input from the user converting it to text and then going through the 'chat_bot' pretrained model to get a text based 
+response from the computer,this is then converted into an audio file and given as output.
+----------------------------------------------
+CHALLENGES:
+the major difficulty while doing this project was installing the modules.
+Some of the required modules do not work with python 3.8 or 3.9 and are only supported by the previous versions.
+Some of the modules do not have any developement.
+Modules like playsound could not be installed on google colab.
+and the main module of this project i.e chatterbot could not be installed on the computer but could be done easily on colab.
+----------------------------------------------
+REFERENCES:
+https://realpython.com/python-speech-recognition/ has the complete overview of how the project has to be done.
+https://stackoverflow.com/questions/56250269/failed-installing-pyaudio-on-google-colab-with-error-failed-building-wheel-for/56265781 solution for installing pyaudio
+https://www.techwithtim.net/tutorials/voice-assistant/ 
